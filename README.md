@@ -21,7 +21,7 @@ Traditional models like Black-Scholes assume constant volatility and ideal marke
 
 * Data pipeline and preprocessing completed
 * Baseline and hybrid pricing models implemented
-* Initial results show improved pricing accuracy over vanilla Black-Scholes
+* Initial results show improved pricing accuracy over Black-Scholes
 
 ## Work in Progress 🚧
 
@@ -29,8 +29,8 @@ This is an ongoing project. Future work includes:
 
 * Expanding data collection and improving data quality
 * Extensive backtesting across different market conditions
-* Incorporating exogenous variables (VIX, macro indicators, etc.)
-* Exploring advanced modeling techniques (deep learning, time-series models)
+* Incorporating exogenous variables (macro indicators, etc.)
+* Exploring advanced modeling techniques (time-series models, etc.)
 * Improving model robustness and generalization
 
 ## Tech Stack
