@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+artifacts/*.pt
+artifacts/*.pkl
+outputs/*.csv

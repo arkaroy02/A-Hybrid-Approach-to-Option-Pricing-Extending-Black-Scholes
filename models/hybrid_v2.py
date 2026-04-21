@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-class HybridNet(nn.Module):
+class HybridNetV2(nn.Module):
     def __init__(self, input_dim):
         super().__init__()
         

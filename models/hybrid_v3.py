@@ -32,7 +32,6 @@ class HybridNetV3(nn.Module):
         
         log_error = self.log_error_head(h).squeeze()
 
-        # 🔥 volatility-aware damping
         sigma = x[:, self.sigma_index]
         sigma_scaled = torch.sigmoid(sigma)
         log_error = log_error / (1 + 0.5 * sigma_scaled)
